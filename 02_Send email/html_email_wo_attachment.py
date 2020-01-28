@@ -17,7 +17,7 @@ MAIL_BODY =\
 
 def send_outlook_html_mail(recipients, subject='No Subject', body='Blank', send_or_display='Display', copies=None):
     """
-    Send an Outlook HTMLText email
+    Send an Outlook HTML email
     :param recipients: list of recipients' email addresses (list object)
     :param subject: subject of the email
     :param body: HTML body of the email
