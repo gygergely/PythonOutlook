@@ -8,9 +8,9 @@ MAIL_BODY =\
     '<html> ' \
     '   <body>' \
     '       <p><b>Dear</b> Receipient,<br><br>'\
-    '       This is an automatically generated email by <font size="3" color="blue">Python.</font><br>' \
-    '       It is so amazing and fantastic<br>' \
-    '       Wish you all the best<br>'\
+    '       This is an automatically generated email by <font size="5" color="blue">Python.</font><br>' \
+    '       It is so <del>amazing and</del> fantastic<br>' \
+    '       <strong>Wish you</strong> all the <font size="5" color="green">best</font><br>'\
     '   </body>' \
     '</html>'
 
