@@ -10,8 +10,9 @@ contact_folder = outApp.Session.GetDefaultFolder(win32com.client.constants.olFol
 # Iterate through contacts
 for contact in contact_folder.Items:
     # print(str(type(contact))[-15:-2])
-
-    if str(type(contact))[-15:-2] == '_DistListItem':
+    
+    if contact.Class == win32com.client.constants.olDistributionList:
+    # if str(type(contact))[-15:-2] == '_DistListItem':
 
         for i in range(1, contact.MemberCount + 1):
             member_in_dl = contact.GetMember(i)
