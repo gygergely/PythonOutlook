@@ -1,6 +1,6 @@
 import win32com.client
 
-DL_NAME = 'Test12'
+DL_NAME = 'Enter the distribution list name here'
 
 # Outlook
 outApp = win32com.client.gencache.EnsureDispatch("Outlook.Application")
